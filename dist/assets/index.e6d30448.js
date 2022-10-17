@@ -49,4 +49,4 @@ Error generating stack: `+o.message+`
  * LICENSE file in the root directory of this source tree.
  */var Zh=Bt.exports,Jh=Symbol.for("react.element"),qh=Symbol.for("react.fragment"),bh=Object.prototype.hasOwnProperty,em=Zh.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,tm={key:!0,ref:!0,__self:!0,__source:!0};function Of(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)bh.call(t,r)&&!tm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Jh,type:e,key:o,ref:i,props:l,_owner:em.current}}po.Fragment=qh;po.jsx=Of;po.jsxs=Of;(function(e){e.exports=po})(Lf);const Vi=Lf.exports.jsx,nm=Xh.div`
   color:blue
-`;function rm(){return Vi(nm,{children:"Welcome to component library"})}Wo.createRoot(document.getElementById("root")).render(Vi(Tr.StrictMode,{children:Vi(rm,{})}));
+`;function rm(){return Vi(nm,{children:"Welcome to component library 2"})}Wo.createRoot(document.getElementById("root")).render(Vi(Tr.StrictMode,{children:Vi(rm,{})}));

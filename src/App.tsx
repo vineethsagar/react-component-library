@@ -8,7 +8,7 @@ function App() {
   
   return (
     <StyledApp>
-        Welcome to component library
+        Welcome to component library 2
     </StyledApp>
   )
 }

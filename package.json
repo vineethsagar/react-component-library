@@ -2,7 +2,7 @@
   "name": "react-component-lib",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vineethsagar.github.io/component-library",
+  "homepage": "https://vineethsagar.github.io/react-component-library/",
   "type": "module",
   "scripts": {
     "dev": "vite",
